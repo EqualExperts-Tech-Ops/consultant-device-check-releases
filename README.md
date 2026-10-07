@@ -12,5 +12,9 @@ These links always download the newest release. Link to them, not to a versioned
 | Windows, all users, installed by IT | [device-check_x64_en-US.msi](https://github.com/EqualExperts-Tech-Ops/consultant-device-check-releases/releases/latest/download/device-check_x64_en-US.msi) |
 | Linux, x86_64 | [device-check_amd64.AppImage](https://github.com/EqualExperts-Tech-Ops/consultant-device-check-releases/releases/latest/download/device-check_amd64.AppImage) |
 
+On Linux, `chmod +x` the AppImage and run it. AppImageLauncher 2.x (common on Arch) cannot
+start it and fails with "Cannot open squashfs image: Bad address": upgrade AppImageLauncher to
+3.0, or remove it.
+
 Release notes and earlier versions are on the [releases page](https://github.com/EqualExperts-Tech-Ops/consultant-device-check-releases/releases).
 Releases are published here by [consultant-device-check](https://github.com/EqualExperts-Tech-Ops/consultant-device-check)'s CI; do not upload by hand.
